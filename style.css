@@ -1,0 +1,165 @@
+#calc {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1.5fr 2fr 2fr 2fr 2fr 2fr;
+    grid-template-areas: 
+                        'display display display display'
+                        'add subtract multiplication division'
+                        'seven eight nine equal'
+                        'four five six equal'
+                        'one two three equal'
+                        'zero dot AC equal';
+    text-align: center;
+    font-size: 30px;
+    font-weight: 550;
+    font-family: arial;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px ;
+    box-shadow: 1px 1px 4px grey;
+}
+
+#calc {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#calc div {
+    display: flex;
+}
+
+span {
+    margin: auto;
+}
+
+#disp {
+    margin-right: 15px ;
+    font-size: 38px;
+    color: white;
+}
+
+/* equal  */
+
+#equal {
+    grid-area: equal;
+    background-color: #f77077;
+    border-bottom-right-radius: 10px;
+    border-top: 3px solid  #899dae;
+}
+
+/* first row */
+
+#display {
+    grid-area: display;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #424c52;
+}
+
+/* second row */
+
+#add {
+    grid-area: add;
+    background-color: #d2dce3;
+    border-right: 3px solid  #899dae;
+}
+
+#subtract{
+    grid-area: subtract;
+    background-color: #d2dce3;
+    border-right: 3px solid  #899dae;
+}
+
+#multiplication {
+    grid-area: multiplication;
+    background-color: #d2dce3;
+    border-right: 3px solid  #899dae;
+}
+
+#division {
+    grid-area: division;
+    background-color: #d2dce3;
+}
+
+
+/* third row */
+
+#seven{
+    grid-area: seven;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#eight{
+    grid-area: eight;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#nine {
+    grid-area: nine;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+/* fourth row */
+
+#four{
+    grid-area: four;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#five{
+    grid-area: five;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#six {
+    grid-area: six;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+/* fifth row */
+
+#one{
+    grid-area: one;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#two{
+    grid-area: two;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#three {
+    grid-area: three;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+/* sixth row */
+
+#zero {
+    grid-area: zero;
+    border-bottom-left-radius: 10px;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#dot {
+    grid-area: dot;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
+
+#AC {
+    grid-area: AC;
+    border-top: 3px solid  #899dae;
+    border-right: 3px solid  #899dae;
+}
